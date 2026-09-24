@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+background-color:#012105;
+padding: 30px;
+text-align: center;
+color:white;
+font-size: 36px;
+}
+
+nav{
+background-color: #0a480d;
+padding: 20px;
+color: white;
+text-align: center;
+font-size: 18px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul.Links{
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  direction: 0.5s;
+}
+nav ul.Links li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul.Links li a:hover{
+    background-color: darkgreen;
+    color: black;
+}
+body{
+background-color: #32cd32;
+border: 1px solid;
+padding: 0;
+margin: 0;
+}
+.photo{
+    width: 250px;
+    height: inherit;
+    border-radius: 50%;
+    border: 2px solid;
+    object-fit: cover;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+
+}
+.prof1 {
+    width: 400px;
+    height: 100px;
+    padding: auto;
+    background-color: yellowgreen;
+    border: 5px solid darkgreen;
+    border-radius: 45px;
+    margin: auto;
+    display: block;
+}
+.prof2 {
+    width: 400px;
+    height: 200px;
+    padding: auto;
+    background-color: yellowgreen;
+    border: 5px solid darkgreen;
+    border-radius: 45px;
+    margin: auto;
+    display: block;
+}
+aside{
+    background-color: antiquewhite;
+    padding: 20px;
+    color: black;
+    float: right;
+    font-style: italic;
+    width: 30%;
+}
+
+footer{
+background-color: #012105;
+padding: 30px;
+text-align: center;
+color:white;
+font-size: 36px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.Tran{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.Tran:hover{
+    background-color: darkgreen;
+    height: inherit;
+    width: inherit;
+    color: black;
+}
+@media (max-width: 600px){
+    nav,article{
+        width: 100%;
+        height: 100%;
+    }
+}
